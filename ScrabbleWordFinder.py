@@ -29,7 +29,7 @@ class ScrabbleWordFinder:
                 self._find_words_recursive(node, prefix + char, remaining_letters.replace(char, '', 1), results)
 
 if __name__ == "__main__":
-    word_finder = ScrabbleWordFinder("C:/Users/ryanw/OneDrive/Documents/DSU/CSC 310/Assignment 5/words.txt")
+    word_finder = ScrabbleWordFinder("words.txt")
 
     player_letters = input("Enter your letters: ")
 
