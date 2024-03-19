@@ -22,7 +22,7 @@ pip install pygtrie
 
 ## Usage
 
-1. Run the Python script `scrabble_word_finder.py`.
+1. Run the Python script `ScrabbleWordFinder.py`.
 2. Input your available letter tiles when prompted.
 3. The program will generate a list of valid words based on your input.
 4. Choose from the list of words provided to enhance your Scrabble gameplay.
